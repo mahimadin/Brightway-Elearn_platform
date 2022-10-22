@@ -1,0 +1,1216 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+.div1 {
+	display: flex;
+	width: 1366px;
+	height: 720px;
+}
+
+.div2 {
+	display: flex;
+	width: 1366px;
+	height: 680px;
+}
+
+.div3 {
+	display: flex;
+	width: 1366px;
+	height: 600px;
+}
+
+.div4 {
+	display: flex;
+	width: 1366px;
+	height: 500px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Styles for Homepage */
+
+.home_nav a {
+	left: 753px;
+	top: 36px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(47, 46, 65, 1);
+	text-decoration: none;
+}
+
+.home_nav a:hover {
+	color: rgba(108, 99, 255, 1);
+}
+
+.features_nav a {
+	left: 839px;
+	top: 36px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(47, 46, 65, 1);
+	text-decoration: none;
+}
+
+.features_nav a:hover {
+	color: rgba(108, 99, 255, 1);
+}
+
+.aboutus_nav a {
+	left: 942px;
+	top: 36px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(47, 46, 65, 1);
+	text-decoration: none;
+}
+
+.aboutus_nav a:hover {
+	color: rgba(108, 99, 255, 1);
+}
+
+.img1 {
+	position: absolute;
+	width: 692px;
+	height: 499px;
+	left: 625px;
+	top: 92px;
+	overflow: visible;
+	opacity: 0;
+}
+
+.title1 {
+	left: 138px;
+	top: 176px;
+	position: absolute;
+	overflow: visible;
+	width: 435px;
+	white-space: nowrap;
+	line-height: 70px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 62px;
+	color: rgba(108, 99, 255, 1);
+	opacity: 0;
+}
+
+.heading1 {
+	left: 138px;
+	top: 402px;
+	position: absolute;
+	overflow: visible;
+	width: 580px;
+	height: 100px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(47, 46, 65, 0.729);
+	opacity: 0;
+}
+
+.getstartbtn a {
+	position: absolute;
+	width: 178px;
+	height: 50px;
+	left: 138px;
+	top: 452px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	background: rgba(108, 99, 255, 1);
+	border-radius: 36px;
+	font-family: Tahoma;
+	cursor: pointer;
+	text-decoration: none;
+	animation: scale-right 1s ease;
+}
+
+.getstart_span {
+	position: absolute;
+	top: 15px;
+	right: 60px;
+}
+
+.getstartbtn a:hover {
+	border: 3px solid rgba(108, 99, 255, 1);
+	background-color: white;
+	color: rgba(108, 99, 255, 1);
+
+}
+
+
+
+.registerbtn a {
+	position: absolute;
+	width: 99px;
+	height: 28px;
+	left: 1062px;
+	top: 32px;
+	padding: 10px 10px;
+	border: 2px solid rgba(108, 99, 255, 1);
+	background-color: white;
+	color: rgba(108, 99, 255, 1);
+	text-align: justify;
+	font-family: Tahoma;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 36px;
+	text-decoration: none;
+}
+
+.registerbtn a:hover {
+	background-color: rgba(108, 99, 255, 1);
+	color: white;
+}
+
+.register_span {
+	position: absolute;
+	left: 28px;
+	top: 6px;
+}
+
+.brightwaylogo {
+	position: absolute;
+	width: 155px;
+	height: 52px;
+	left: 138px;
+	top: 19px;
+	overflow: visible;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Styles for Featurespage */
+
+.title2 {
+	left: 146px;
+	top: 754.274px;
+	position: absolute;
+	overflow: visible;
+	width: 210px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(108, 99, 255, 1);
+	opacity: 0;
+}
+
+.f1_title {
+	left: 527px;
+	top: 917px;
+	position: absolute;
+	overflow: visible;
+	width: 164px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f2_title {
+	left: 536px;
+	top: 1141.652px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f3_title {
+	left: 779px;
+	top: 917px;
+	position: absolute;
+	overflow: visible;
+	width: 148px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f4_title {
+	left: 771px;
+	top: 1143.385px;
+	position: absolute;
+	overflow: visible;
+	width: 165px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f5_title {
+	left: 1015px;
+	top: 917px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f6_title {
+	left: 1034px;
+	top: 1141.083px;
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f1_description {
+	left: 527px;
+	top: 958px;
+	position: absolute;
+	overflow: visible;
+	width: 162px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f2_description {
+	left: 534px;
+	top: 1204.894px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f3_description {
+	left: 782px;
+	top: 958px;
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f4_description {
+	left: 771px;
+	top: 1204.894px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f5_description {
+	left: 1013px;
+	top: 958px;
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f6_description {
+	left: 1034px;
+	top: 1182.083px;
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(47, 46, 65, 1);
+	opacity: 0;
+
+}
+
+.f3_img {
+	position: absolute;
+	width: 100.835px;
+	height: 62.528px;
+	left: 802px;
+	top: 828px;
+	overflow: visible;
+	opacity: 0;
+
+}
+
+.img2 {
+	position: absolute;
+	width: 364.394px;
+	height: 350.844px;
+	left: 63.106px;
+	top: 883.808px;
+	overflow: visible;
+	opacity: 0;
+
+
+}
+
+.f4_img {
+	position: absolute;
+	width: 70px;
+	height: 50.909px;
+	left: 817.5px;
+	top: 1056px;
+	overflow: visible;
+	opacity: 0;
+
+}
+
+.f1_img {
+	position: absolute;
+	width: 60px;
+	height: 52.5px;
+	left: 572.231px;
+	top: 833px;
+	overflow: visible;
+	opacity: 0;
+
+}
+
+.f5_img {
+	position: absolute;
+	width: 50px;
+	height: 65px;
+	left: 1055px;
+	top: 828px;
+	overflow: visible;
+	opacity: 0;
+
+}
+
+.f6_img {
+	position: absolute;
+	width: 75px;
+	height: 52.505px;
+	left: 1046.5px;
+	top: 1055.867px;
+	overflow: visible;
+	opacity: 0;
+
+}
+
+.f2_img {
+	position: absolute;
+	width: 65px;
+	height: 59.587px;
+	left: 576px;
+	top: 1056px;
+	overflow: visible;
+	opacity: 0;
+
+}
+
+
+
+/* Styles for About us page */
+.title3 {
+	left: 166px;
+	top: 1437.273px;
+	position: absolute;
+	overflow: visible;
+	width: 216px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(108, 99, 255, 1);
+	opacity: 0;
+}
+
+.img3 {
+	position: absolute;
+	width: 458.228px;
+	height: 409.212px;
+	left: 795px;
+	top: 1469.395px;
+	overflow: visible;
+	opacity: 0;
+
+}
+
+.about_paragraph {
+	left: 166px;
+	top: 1527px;
+	position: absolute;
+	overflow: visible;
+	width: 545px;
+	height: 122px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112, 112, 112, 1);
+	opacity: 0;
+
+}
+
+.email {
+	left: 199px;
+	top: 1655px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112, 112, 112, 1);
+}
+
+.telephone {
+	left: 200px;
+	top: 1688px;
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112, 112, 112, 1);
+}
+
+.telephone_icon {
+	position: absolute;
+	width: 22px;
+	height: 17.546px;
+	left: 166px;
+	top: 1692.727px;
+	overflow: visible;
+}
+
+.mail_icon {
+	position: absolute;
+	width: 20px;
+	height: 15px;
+	left: 168px;
+	top: 1661px;
+	overflow: visible;
+}
+
+.facebook_icon {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 321.5px;
+	top: 1853.606px;
+	overflow: visible;
+}
+
+.whatapp_icon {
+	position: absolute;
+	width: 25px;
+	height: 25.149px;
+	left: 380.5px;
+	top: 1853.457px;
+	overflow: visible;
+}
+
+.youtube_icon {
+	position: absolute;
+	width: 30px;
+	height: 21.08px;
+	left: 439.5px;
+	top: 1857.249px;
+	overflow: visible;
+}
+
+.twitter_icon {
+	position: absolute;
+	width: 28px;
+	height: 22.741px;
+	left: 503.5px;
+	top: 1854.661px;
+	overflow: visible;
+}
+
+
+
+
+
+/* Styles for Registertion page */
+.title4 {
+	left: 170.5px;
+	top: 2056.273px;
+	position: absolute;
+	overflow: visible;
+	width: 317px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(108, 99, 255, 1);
+	opacity: 0;
+}
+
+.Line1_class {
+	fill: transparent;
+	stroke: rgba(112, 112, 112, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 513px;
+	height: 1px;
+	left: 170px;
+	top: 2296.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line2_class {
+	fill: transparent;
+	stroke: rgba(112, 112, 112, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 513px;
+	height: 1px;
+	left: 170px;
+	top: 2224.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line3_class {
+	fill: transparent;
+	stroke: rgba(112, 112, 112, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 513px;
+	height: 1px;
+	left: 170px;
+	top: 2369.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line4_class {
+	fill: transparent;
+	stroke: rgba(112, 112, 112, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 513px;
+	height: 1px;
+	left: 170px;
+	top: 2441.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.img4 {
+	position: absolute;
+	width: 508.263px;
+	height: 418.514px;
+	left: 714.5px;
+	top: 2122.274px;
+	overflow: visible;
+	opacity: 0;
+}
+
+.name_field {
+	left: 171px;
+	top: 2191px;
+	width: 500px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112, 112, 112, 1);
+	opacity: 0;
+}
+
+.school_field {
+	left: 171px;
+	top: 2263px;
+	width: 500px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112, 112, 112, 1);
+	opacity: 0;
+}
+
+.email_field {
+	left: 171px;
+	top: 2335px;
+	width: 500px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112, 112, 112, 1);
+	opacity: 0;
+}
+
+.contactno_field {
+	left: 171px;
+	top: 2407px;
+	width: 500px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112, 112, 112, 1);
+	opacity: 0;
+
+}
+
+.registerbtn2_div {
+	position: absolute;
+	width: 130px;
+	height: 46px;
+	left: 160px;
+	top: 2480px;
+	opacity: 0;
+}
+
+.registerbtn2 a {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 130px;
+	height: 40px;
+	font-family: Tahoma;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: normal;
+	color: white;
+	background: rgba(108, 99, 255, 1);
+	border-radius: 36px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.register_span2 {
+	position: absolute;
+	top: 10px;
+	left: 28px;
+}
+
+.registerbtn2 a:hover {
+	background: white;
+	color: rgba(108, 99, 255, 1);
+	border: 2px solid rgba(108, 99, 255, 1);
+}
+
+input {
+	width: 100%;
+	height: 100%;
+	outline: none;
+	font-size: 16px;
+}
+
+
+
+/* Styles for Footer */
+
+.Rectangle_10_Class {
+	fill: rgba(108, 99, 255, 1);
+	width: 150em;
+}
+
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 1366px;
+	height: 255px;
+	left: 0px;
+	top: 2645px;
+}
+
+.brightwaylogo2_div {
+	position: absolute;
+	width: 155px;
+	height: 52px;
+	left: 60px;
+	top: 2662px;
+	overflow: visible;
+}
+
+.brightwaylogo2 {
+	position: absolute;
+	width: 155px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	text-align: left;
+	font-family: Seagull Lt BT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255, 255, 255, 1);
+	letter-spacing: -0.5px;
+}
+
+.mail2 {
+	left: 93px;
+	top: 2726px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.telephone2 {
+	left: 94px;
+	top: 2759px;
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.telephone2_icon {
+	position: absolute;
+	width: 22px;
+	height: 17.546px;
+	left: 60px;
+	top: 2763.727px;
+	overflow: visible;
+}
+
+.mail2_icon {
+	position: absolute;
+	width: 20px;
+	height: 15px;
+	left: 62px;
+	top: 2732px;
+	overflow: visible;
+}
+
+.facebook2_icon {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 60px;
+	top: 2819.922px;
+	overflow: visible;
+}
+
+.whatapp2_icon {
+	position: absolute;
+	width: 25px;
+	height: 25.149px;
+	left: 119px;
+	top: 2819.771px;
+	overflow: visible;
+}
+
+.youtube2_icon {
+	position: absolute;
+	width: 30px;
+	height: 21.08px;
+	left: 178px;
+	top: 2823.563px;
+	overflow: visible;
+}
+
+.twitter2_icon {
+	position: absolute;
+	width: 28px;
+	height: 22.741px;
+	left: 242px;
+	top: 2820.977px;
+	overflow: visible;
+}
+
+.quick_links {
+	left: 522px;
+	top: 2667px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.ask_questions {
+	left: 878px;
+	top: 2667px;
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.homelink a {
+	left: 527px;
+	top: 2719px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+
+}
+
+.featureslink a {
+	left: 527px;
+	top: 2753px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+
+}
+
+.about_uslink a {
+	left: 527px;
+	top: 2786px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
+.registerlink a {
+	left: 527px;
+	top: 2820px;
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+
+}
+
+.questionform_email {
+	position: absolute;
+	top: 2710px;
+	left: 878px;
+	width: 293px;
+	height: 33px;
+	padding: 5px 5px;
+	border-radius: 6px;
+}
+
+.questionform_message {
+	position: absolute;
+	top: 2750px;
+	left: 878px;
+	width: 293px;
+	height: 76px;
+	padding: 5px 5px;
+	font-size: 17px;
+	font-family: Tahoma;
+	border-radius: 6px;
+
+}
+
+.sendbtn a {
+	left: 1118px;
+	top: 2836px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
+.Line5_class {
+	fill: transparent;
+	stroke: rgba(255, 255, 255, 1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 120px;
+	height: 2px;
+	left: 522.5px;
+	top: 2707.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.form {
+	position: absolute;
+	right: 680px;
+	top: 2140px;
+
+}
+
+.qform {
+	position: absolute;
+	top: 2650px;
+	right: 80px;
+}
+
+
+/* Animations */
+
+.show-anim1 {
+	opacity: 1;
+	animation: slide-right 1.5s ease ;
+}
+
+.show-anim2 {
+	opacity: 1;
+	animation: slide-left 1.5s ease ;
+}
+
+
+@keyframes slide-right {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slide-left {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@keyframes scale-right {
+	0% {
+		transform: scaleX(0);
+		transform-origin: 0% 0%;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: 0% 0%;
+	}
+}
